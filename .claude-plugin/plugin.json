@@ -1,0 +1,37 @@
+{
+  "name": "sales-enablement",
+  "version": "1.0.0",
+  "description": "Production-grade sales enablement suite for complex B2B media and advertising sales. Provides deal analysis (MEDDIC), objection handling (AIRC), competitor intelligence, proposal generation (SCRAP), and call preparation — all backed by self-learning memory and pipeline analytics.",
+  "author": "CJ Fleming",
+  "homepage": "https://github.com/cjfleming/sales-enablement",
+  "skills": [
+    "skills/deal-analysis/SKILL.md",
+    "skills/objection-handling/SKILL.md",
+    "skills/competitor-intel/SKILL.md",
+    "skills/proposal-craft/SKILL.md",
+    "skills/call-prep/SKILL.md"
+  ],
+  "agents": [
+    "agents/deal-strategist.md",
+    "agents/proposal-reviewer.md",
+    "agents/pipeline-analyst.md"
+  ],
+  "commands": [
+    "commands/analyze-deal.md",
+    "commands/prep-call.md",
+    "commands/battle-card.md",
+    "commands/proposal.md",
+    "commands/pipeline.md"
+  ],
+  "hooks": "hooks/hooks.json",
+  "scripts": [
+    "scripts/load-sales-context.sh",
+    "scripts/inject-context.sh"
+  ],
+  "data": {
+    "frameworks": "data/frameworks/",
+    "templates": "data/templates/",
+    "playbooks": "data/playbooks/",
+    "memory": "data/memory/"
+  }
+}
